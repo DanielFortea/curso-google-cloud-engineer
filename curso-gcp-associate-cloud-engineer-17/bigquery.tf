@@ -1,5 +1,6 @@
 resource "google_bigquery_dataset" "dataset" {
   dataset_id = "mi_dataset_reportes"
+  project    = "curso-gcp-engineer"
   location   = "US"
 }
 
