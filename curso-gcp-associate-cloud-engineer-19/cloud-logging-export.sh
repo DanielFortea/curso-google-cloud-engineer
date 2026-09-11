@@ -1,1 +1,1 @@
-gcloud logging sinks create mi-exportacion-bq bigquery.googleapis.com/projects/gcp-cloud-engineer-curso-01/datasets/mi_dataset_reportes --log-filter="severity>=ERROR"
+gcloud logging sinks create mi-exportacion-bq bigquery.googleapis.com/projects/curso-gcp-engineer/datasets/mi_dataset_reportes --log-filter="severity>=ERROR"

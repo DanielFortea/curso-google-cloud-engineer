@@ -11,7 +11,7 @@ resource "google_monitoring_uptime_check_config" "http" {
   monitored_resource {
     type = "uptime_url"
     labels = {
-      project_id = "gcp-cloud-engineer-curso-01"
+      project_id = "curso-gcp-engineer"
       host       = "10.0.1.2" # Pon la IP del Ejercicio 6 o 11
     }
   }
