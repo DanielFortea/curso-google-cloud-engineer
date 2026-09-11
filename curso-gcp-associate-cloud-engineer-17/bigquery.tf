@@ -6,6 +6,7 @@ resource "google_bigquery_dataset" "dataset" {
 
 resource "google_bigquery_table" "default" {
   dataset_id = google_bigquery_dataset.dataset.dataset_id
+  project    = "curso-gcp-engineer"
   table_id   = "resumen_ventas"
   schema = <<EOF
 [
