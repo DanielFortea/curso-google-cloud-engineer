@@ -1,5 +1,5 @@
 provider "google" {
-  project = "gcp-cloud-engineer-curso-01"
+  project = "curso-gcp-engineer"
   region  = "us-central1"
 }
 

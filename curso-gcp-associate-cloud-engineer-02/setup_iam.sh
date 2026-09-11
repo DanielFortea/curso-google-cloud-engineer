@@ -1,3 +1,3 @@
 gcloud iam service-accounts create dev-deployer --display-name "Deployer SA"
 
-gcloud projects add-iam-policy-binding gcp-cloud-engineer-curso-01 --member="serviceAccount:dev-deployer@gcp-cloud-engineer-curso-01.iam.gserviceaccount.com" --role="roles/compute.viewer"
+gcloud projects add-iam-policy-binding curso-gcp-engineer --member="serviceAccount:dev-deployer@curso-gcp-engineer.iam.gserviceaccount.com" --role="roles/compute.viewer"
